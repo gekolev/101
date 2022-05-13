@@ -1,0 +1,22 @@
+*{
+    font-family: 'Bangers', cursive;;
+}
+.card-holder {
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+    max-width: 250px;
+    padding: 25px;
+    transition: 1s;
+    cursor: pointer;
+}
+.card-holder:hover{
+    background-color: lightblue;
+    transition: 1s;
+}
+.hero-img{
+    width: 250px;
+}
+.hero-text{
+    margin-top: 50px;
+}
