@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=
+Jura:wght@300&family=Mukta:wght@200&family=Quicksand:wght@300&family=Robot
+o:wght@100&display=swap" rel="stylesheet">
+    <title>project</title>
+  </head>
+  <body>
+    
+    
+    <header id="myHeader">
+      <img class="logo" src="logo1.png" alt="logo">
+      <ul>
+        <li> 
+            <a href="#delivery">FOOD DELIVERY</a>
+        </li>
+        <li>
+           <a href="#howItWorks">HOW IT WORKS</a> 
+        </li>
+        <li>
+          <a href="#ourcities">OUR CITIES </a>
+        </li>
+        <li><a href="#signUp">SIGN UP</a></li>
+      </ul>
+    </header>
+    
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
+    
+     
+    <div class="hero">
+      <div class="elementCenter">
+        <h1 class="first">GOODBYE JUNK FOOD.
+          <br>HELLO SUPER HEALTHY MEALS.
+        </h1>
+        <div class="buttonContainer">
+          <a href="#delivery"><button class="orange">I'm hungry</button></a>
+          <a href="#howItWorks"><button class="transparent">Show me more</button></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="menu" id="delivery">
+      <h1 class="second">GET FOOD FAST - NOT FAST FOOD</h1>
+      <hr class="line">
+      <p class="spin">Hello, we're Omnifood, your new premium delivery service. We know you're always busy.<br>
+        No time for cooking. So let us take care of that, we're really good at it, we promise!
+      </p>
+      <div class="container">
+        <div class="box">
+          <img class="icon" src="infinity.png" alt="infinity">
+          <h3>UP TO 365 DAYS/YEAR</h3>
+          <p class="long">
+            Never cook again! We really mean that. Our subscription include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+          </p>
+        </div>
+        <div class="box">
+          <img class=icon src="stopwatch-fill.png" alt="stopwatch">
+          <h3>READY IN 5 MINUTES</h3>
+          <p class="long">
+            You're only 20 minutes away from your delicious and super healthy meals delievered right to your home. We work with the best chefs in each town to ensure that you are 100% happy.
+          </p>
+        </div>
+        <div class="box">
+          <img class="icon" src="apple.png" alt="apple">
+          <h3>100% ORGANIC</h3>
+          <p class="long">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, pariatur maiores. Expedita animi fuga nemo eaque tenetur, optio iusto unde.
+          </p>
+        </div>
+        <div class="box">
+          <img class="icon" src="cart3.png" alt="cart">
+          <h3>ORDER ANYTHING</h3>
+          <p class="long">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, pariatur maiores. Expedita animi fuga nemo eaque tenetur, optio iusto unde.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column">
+        <img src="burger.jpg" alt="burger">
+      </div>
+      <div class="column">
+        <img src="burger.jpg" alt="burger">
+      </div>
+      <div class="column">
+        <img src="burger.jpg" alt="burger">
+      </div>
+      <div class="column">
+        <img src="burger.jpg" alt="burger">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="burger.jpg" alt="burger">
+      </div>
+      <div class="column">
+        <img src="burger.jpg" alt="burger">
+      </div>
+      <div class="column">
+        <img src="burger.jpg" alt="burger">
+      </div>
+      <div class="column">
+        <img src="burger.jpg" alt="burger">
+      </div>
+    </div>
+    
+    <div class="phone" id="howItWorks">
+        <h1 class="second">HOW IT WORKS - SIMPLE AS 1, 2, 3</h1>
+        <hr class="line">
+        <div class="phoneContainer">
+            <img class="phoneImage" src="pngwing.com.png" alt="phone">
+            <div class="phoneScreen">
+                <img class="screenImg" src="Healthy2.jpg" alt="screen">
+                <img class="secondLogo" src="logo1.png" alt="logo2">
+                   <div class="phoneText">
+                        <ol>
+                           <div class="circle1"><p><font color="darkgoldenrod">1</p></font></div><p class="ph">Choose the subscription that best fits your needs and sign up today.</p>
+                           <div class="circle2"><p><font color="darkgoldenrod">2</p></font></div><p class="ph">Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+                           <div class="circle3"><p><font color="darkgoldenrod">3</p></font></div><p class="ph">Enjoy your meal after less than 20 minutes. See you the next time!</ps>
+                        </ol>
+                    </div>
+            </div>
+            <div class="apps">
+                <img class="appstore" src="appstore.svg" alt="appstore1">
+                <img class="googleplay" src="googleplay.svg" alt="googleplaylogo">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="cities" id="ourcities">
+      <h1 class="second">WE'RE CURRENTLY IN THESE CITIES</h1>
+      <hr class="line">
+      <div class="container">
+        <div class="box">
+          <img class="citiesImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Rua_Augusta_Arch_-_April_2019_%28cropped%29.jpg/1920px-Rua_Augusta_Arch_-_April_2019_%28cropped%29.jpg">
+          <p class="citi">LIBSON</p>
+          <img class="person"src="person.png"> <p class="tutrakan">1600+ happy eaters</p>
+          <img class="star"src="star.png"> <p class="chefs">60+ top chefs</p>
+          <img class="twitter"src="twitter.png"><p class="tag twitterLink">@omnifood_lx</p>
+        </div>
+        <div class="box">
+          <img class="citiesImg" src="https://pbs.twimg.com/media/FPHFobQXMAMYvdP.jpg:large">
+          <p class="citi">SAN FRANCISCO</p>
+          <img class="person"src="person.png"> <p class="tutrakan">3700+ happy eaters</p>
+          <img class="star"src="star.png"> <p class="chefs">160+ top chefs</p>
+          <img class="twitter"src="twitter.png"><p class="tag twitterLink">@omnifood_sf</p>
+        </div>
+        <div class="box">
+          <img class="citiesImg" src="https://pix10.agoda.net/geo/city/2366/1_2366_02.jpg?ca=6&ce=1&s=1920x822">
+          <p class="citi">BERLIN</p>
+          <img class="person"src="person.png"> <p class="tutrakan">2300+ happy eaters</p>
+          <img class="star"src="star.png"> <p class="chefs">110+ top chefs</p>
+          <img class="twitter"src="twitter.png"><p class="tag twitterLink">@omnifood_berlin</p>
+        </div>
+        <div class="box">
+          <img class="citiesImg" src="towerbridge.jpg">
+          <p class="citi">LONDON</p>
+          <img class="person"src="person.png"> <p class="tutrakan">1200+ happy eaters</p>
+          <img class="star"src="star.png"> <p class="chefs">50+ top chefs</p>
+          <img class="twitter"src="twitter.png"><p class="tag twitterLink">@omnifood_london</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <h1 class="third">OUR CUSTOMERS CAN'T LIVE WITHOUT US</h1>
+      <hr class="line">
+      <div class="container2">
+        <div class="box2">
+          <h4>"</h4>
+          <i class="opinions">
+            Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that i got used to it, i couldn't live without my daily meals!
+          </i>
+        </div>
+
+          <div class="box2">
+          <h4>"</h4>
+          <i class="opinions">
+            Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Libson, but no one comes even close to Omnifood. Me and my family are so in love!
+          </i>
+        </div>
+      
+         <div class="box2">
+          <h4>"</h4>
+          <i class="opinions">
+            I was looking for a quick and easy food delivery service in San Francisco. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Arena. Keep up the great work!
+          </i>
+        </div>
+      </div>
+
+      <div class="profiles">
+        
+        <div class="box3"><img class="profilePic" src="pfp3.png" alt="pfp">
+          <i class="name">Alberto Dunkan</i>
+          
+        </div>
+        <div class="box3"><img class="profilePic" src="pfp1.jpg" alt="pfp">
+        <i class="name">Joana Silva</i>
+        </div>
+        
+        <div class="box3"><img class="profilePic" src="pfp2.png" alt="pfp">
+        <i class="name">Milton Chapman</i>
+        </div>
+      </div>
+    </div>
+
+    <div class="subscription" id="signUp">
+      <h1 class="second">START EATING HEALTHY TODAY</h1>
+      <hr class="line">
+      <div class="container3">
+        <div class="box4">
+          <h3 class="sub">PREMIUM</h3>
+           
+        </div>
+        <div class="box4">
+          <h3 class="sub">PRO</h3>
+    
+        </div>
+        <div class="box4">
+          <h3 class="sub">STARTER</h3>
+          
+        </div>
+        
+      </div>
+    
+    </div>
+  </body>
+</html>                      

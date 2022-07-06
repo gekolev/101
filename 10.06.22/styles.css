@@ -1,0 +1,472 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(healthy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 5;
+    padding-top: 20px;
+    padding-left: 377px;
+    padding-right: 400px;        
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.822);
+
+  }
+  .sticky + body {
+    /* padding-top: 102px; */
+  }
+  .sticky + .logo{
+     /* width:50px; */
+  }
+
+.logo{
+    width: 100px;
+    left: 40%;    
+}
+ul{
+list-style: none;
+display: flex;
+gap: 40px;
+padding-left: 490px;
+color: rgba(255, 255, 255, 0.596);
+align-items: center;
+font-family: 'Open Sans', sans-serif;
+}
+li{
+   padding-bottom: 7px;
+    border-bottom:1px solid transparent;
+    transition: 0.5s;
+    list-style: none;
+}
+li:hover{
+    transition: 0.5s;
+    border-bottom: 1px solid rgb(216, 142, 6);
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+div.elementCenter{
+    left: 20%;
+    width: 60%;
+    top: 49%;
+    position: relative;
+}
+h1{
+    font-size: 32pt;
+    text-align: left;
+    grid-row: auto;
+    color:white;
+    margin-bottom:14px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+}
+.second{
+    color:black;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 0;
+    margin-bottom:20px;
+    font-size: 33px;
+}
+.buttonContainer{
+    display: flex;
+   align-items:flex-start;
+}
+
+.orange{
+    margin-right: 20px;
+    padding: 15px 36px;
+    background-color: orange;
+    border:1px solid orange;
+    border-radius: 50px;
+    color: white;
+    transition: 0.5s;
+    
+}
+.transparent{
+    padding:15px 36px;
+    border-radius: 50px;
+    color:rgb(216, 142, 6);
+    border:0.6px solid rgb(216, 142, 6);
+    background-color: transparent;
+    min-width: 150px;
+    transition:0.5s;
+}
+.transparent:hover{
+    background-color: rgb(216, 142, 6);
+    color:white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.orange:hover{
+    background-color: rgb(216, 142, 6);
+    transition: 0.5s;
+    border: 1px solid rgb(216, 142, 6);
+    cursor: pointer;
+}
+.menu{
+    width: 100vw;
+    height: 64vh;
+    text-align: center;
+    background-color: rgb(255, 255, 253);
+}
+.spin{
+    margin-top: 25px;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.long{
+    width: 199px;
+}
+hr.line{
+    width: 94px;
+    border: 1px solid rgb(216, 142, 6);
+}
+.container{
+  width: 100%;
+  height: auto;
+  display : flex ;
+  flex-direction : row; 
+  justify-content : center;
+  flex-flow : wrap;
+  padding-top: 10px;
+}
+
+.box{
+    width: 13%;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-right:0;
+    margin-left:0;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    margin-right: 110px;
+
+}
+h3{
+    margin-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+.row{
+    background-color: blue;
+    height: 53vh;
+    display: flex;
+}
+   
+*{
+    box-sizing: border-box;
+}
+.column{
+    width: 100%; 
+    background-color: brown;
+   
+}
+  .row::after{
+      content: "";
+      display: table;
+      clear: both;
+  }
+.phone{
+    background-color: rgba(218, 216, 216, 0.39);
+    height: 100%;
+}
+.phoneContainer{
+    height: 54vh;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    left: 695px;
+    padding-top: 50px;
+}
+.phoneImage{
+    height: 400px;
+}
+.phoneScreen{
+    width: 156px;
+    height: 265px;
+    position: relative;
+    bottom: 348px;
+    left: 33px;
+    background-image: url(healthy.jpg);
+}
+.screenImg{
+    width: 156px;
+    height: 265px;
+}
+.secondLogo{
+    bottom: 175px;
+    left: 38px;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.phoneText{
+    position: relative;
+    left: 250px;
+    bottom: 435px;
+    background-color:transparent;
+    width: 400px;
+
+}
+.numbers{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 0.5px solid 
+}
+ol{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+    color: rgba(26, 26, 26, 0.685);
+    list-style: none;
+    
+}
+.ph{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 20px;
+
+}
+.ph:hover{
+    cursor: default;
+}
+.circle1{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -40px;
+    text-align: center;
+    border:0.6px solid rgb(216, 142, 6);
+    border-radius: 100%;
+    padding: 10px;
+    top: 45px;
+    font-size: 25px;
+}
+.circle2{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -40px;
+    top: 45px;
+    text-align: center;
+    border:0.6px solid rgb(216, 142, 6);
+    border-radius: 100%;  
+    padding: 10px;
+    font-size: 25px;
+}
+.circle3{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -40px;
+    text-align: center;
+    border:0.6px solid rgb(216, 142, 6);
+    border-radius: 100%;
+    padding: 10px;
+    top: 45px;
+    font-size: 25px;
+}
+.apps{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    position: relative;
+    bottom: 357px;
+    left: 285px;
+    
+}
+.appstore{
+    width: 140px;
+    position: relative;
+    bottom: 45px;
+}
+.googleplay{
+    width: 140px;
+    position: relative;
+    bottom: 45px;
+    left:15px;
+}
+.cities{
+    width: 100vw;
+    height: 55vh;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 249);
+}
+.citiesImg{
+    width: 210px;
+    height:140px;
+}
+.citi{
+    margin-top: 13px;
+    
+
+}
+.person{
+position: relative;
+top: 10px;
+left: 4px;
+width: 16px;
+}
+.tutrakan{
+    padding-left:27px;
+    position: relative;
+    top: -9px;
+}
+.chefs{
+    padding-left:27px;
+    position: relative;
+    top: -19px;
+}
+.star{
+position: relative;
+left: 4px;
+width: 16px;
+}
+.twitter{
+    position: relative;
+    left: 4px;
+    top: -9px;
+    width: 16px;
+}
+.tag{
+    left:27px;
+    position: relative;
+    top: -31px;
+    
+}
+.twitterLink{
+color: rgb(216, 142, 6);
+}
+.reviews{
+    width: 100%;
+    height: 52vh;
+    background-image: url(pizzabackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+.third{
+    color:rgba(255, 255, 255, 0.822);
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size:33px;
+}
+.opinions{
+    font-family: 'Quicksand', sans-serif;
+    color:rgba(255, 255, 255, 0.836);
+    text-emphasis: 6%;
+}
+.container2{
+    display: flex;
+    justify-content : center;
+    height: 35vh;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+h4{
+    color:white;
+    font-size:50px;
+    margin:0;
+    width:50px;
+    height: 40px;
+    margin-right: 0px;
+    position:relative;
+    right: 7px;
+}
+.profiles{
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    position:relative;
+    top:-140px;
+    right:-380px;
+}
+.profilePic{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.name{
+    font-family: 'Quicksand', sans-serif;
+    color:rgba(255, 255, 255, 0.836);
+    position: relative;
+    top: -15px;
+    padding-left:10px;
+}
+.box3{
+    align-items: center;
+    gap:10px;
+}
+.subscription{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    background-color: rgba(218, 216, 216, 0.39);
+}
+.container3{
+    display: flex;
+    justify-content : center;
+    height: 35vh;
+    background-color: red;
+    gap: 18px;
+}
+.box4{
+    width: 15%;
+    height: 300px;
+    margin: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: aqua;
+}
+.sub{
+    padding-left:10px
+}

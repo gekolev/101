@@ -1,7 +1,7 @@
 :root {
-	--primary: lightblue;
+	--mainColor: orange;
+	--primary: red;
 	--grey: #888;
-
 	--card-width: 320px;
 	--image-width: calc(var(--card-width) / 1.5);
 }
